@@ -14,7 +14,7 @@ int main()
 
     // 初始化模型
     rknn_app_context_t app_ctx = {0};
-    if (init_yolo11_model("/home/ling/CLionProjects/LCAR_Opencv/best.rknn", &app_ctx) < 0) //todo need fix
+    if (init_yolo11_model("/home/ling/CLionProjects/LCAR_Opencv/mobest.rknn", &app_ctx) < 0) //todo need fix
     {
         printf("Init model failed\n");
         return -1;
